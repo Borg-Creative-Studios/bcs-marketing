@@ -4,7 +4,7 @@
     <!--BCS Ads MK3-->
     <title>general/entertainment/media</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
-
+<script src="./js/reporttag.js" charset="utf-8"></script>
     <meta charset="utf-8">
     <!-- Panelbear Analytics - We respect your privacy -->
     <script async src="https://cdn.panelbear.com/analytics.js?site=CPze3vq8kKh"></script>
@@ -13,7 +13,7 @@
       panelbear('config', { site: 'CPze3vq8kKh' });
     </script>
   </head>
-  <body style="background-color:transparent;">
+  <body style="background-color:transparent;" onload="reporttag()">
 
     <div class="gallery" style="width: 45%;" height="auto">
       <div class="uk-card uk-card-default" width="100%">
@@ -23,7 +23,7 @@
           <div class="uk-card-body">
             <h5 class="uk-heading-line"><span>BCS Data Survey</span></h5>
             <p>Do you think that "Open Data" projects are a good idea?</p>
-            <a href="https://data.borgcreative.com/dataproject002.html" target="_blank" class="uk-link-muted">Take survey</a> | <a href="https://www.borgcreative.com/adreport.html" target="_blank" class="uk-link-muted">Report ad</a>
+            <a href="https://data.borgcreative.com/dataproject002.html" target="_blank" class="uk-link-muted">Take survey</a> | <a id="reportlink" href="" target="_blank" class="uk-link-muted">Report ad</a>
 
           </div>
       </div>
@@ -36,7 +36,7 @@
           <div class="uk-card-body">
             <h5 class="uk-heading-line"><span>Grocery Catcher</span></h5>
             <p>Catch the food with your cart and avoid the rapidly approaching boulders!</p>
-            <a href="https://gamejolt.com/games/grocerycatcher/523501" target="_blank" class="uk-link-muted">Learn more</a> | <a href="https://www.borgcreative.com/adreport.html" target="_blank" class="uk-link-muted">Report ad</a>
+            <a href="https://gamejolt.com/games/grocerycatcher/523501" target="_blank" class="uk-link-muted">Learn more</a> | <a id="reportlink" href="" target="_blank" class="uk-link-muted">Report ad</a>
 
           </div>
       </div>
