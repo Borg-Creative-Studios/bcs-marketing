@@ -20,7 +20,7 @@
     <div class="gallery" style="width: 300px;" height="auto">
       <div class="uk-card uk-card-default" width="100%">
           <div class="uk-card-media-top">
-              <a onclick="click()" href="https://www.wavedm.net/" target="_blank" id="adlink" class="uk-link-muted"><img src="./img/wdm.png" alt="Wave Digital Ministries Network"></a>
+              <a onclick="click()" href="https://www.wavedm.net/" target="_blank" id="imglink" class="uk-link-muted"><img src="./img/wdm.png" alt="Wave Digital Ministries Network"></a>
           </div>
           <div class="uk-card-body">
             <h5 class="uk-heading-line"><span>Wave Digital Ministries</span></h5>
@@ -59,6 +59,15 @@ div.desc {
   <script>
   let adlink = document.getElementById("adlink");
   adlink.addEventListener("click", function () { panelbear("track", "adlink-ap-1");
+  });
+  </script>
+  <script type="text/javascript">
+  function click(){
+    console.log("Ad link clicked")
+  }
+
+  let imglink = document.getElementById("imglink");
+  imglink.addEventListener("click", function () { panelbear("track", "imglink-ap-1");
   });
   </script>
   <script type="text/javascript">
