@@ -7,7 +7,7 @@ function reporttag(){
 
 */
 function reporttag(){
-    document.getElementById("reportlink").href = 'https://cloud.borgcreative.com/survey/index.php/479343'
+    document.getElementById("reportlink").href = 'https://cloud.borgcreative.com/my/index.php/apps/forms/MSW2sL29JZ29D9kk'
 
-    document.getElementById("reportlink1").href = 'https://cloud.borgcreative.com/survey/index.php/479343'
+    document.getElementById("reportlink1").href = 'https://cloud.borgcreative.com/my/index.php/apps/forms/MSW2sL29JZ29D9kk'
 }
